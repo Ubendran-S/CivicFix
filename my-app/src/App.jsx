@@ -1,11 +1,11 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SignUp from './Pages/SignUp';
-import Home from './Pages/Home'
-import Login from './Pages/Login'
+import Home from './Pages/Home';
+import Login from './Pages/Login';
 import Report from './Pages/Report';
-import Thank from './Pages/Thank'
-import Contact from './Pages/Contact'
+import Thank from './Pages/Thank';
+import Contact from './Pages/Contact';
 import MyReport from './Pages/MyReport';
 function App() {
   return (
