@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    font-size: 25px;
+    height: 7vh;
+    background-image: linear-gradient(to right,rgb(0,52,105),rgb(0,96,193));
+    align-items: center;
+    animation: pk;
+    animation-duration: 1s;
+}
+@keyframes pk {
+    to {
+        transform: translateY(0px);
+    }
+    from{
+        transform: translateY(-100px);
+    }
+}
+.nav-link{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: rgb(0,0,0);
+    transform: scale(0.9);
+}
+h1{
+    color: white;
+    font-size: 33px;
+}
+nav{
+    display: flex;
+    gap: 200px;
+}

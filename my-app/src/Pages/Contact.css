@@ -1,0 +1,11 @@
+.pol{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10vh;
+    align-items: center;
+}
+.do{
+    height: 65vh;
+    width: 40vw;
+}
