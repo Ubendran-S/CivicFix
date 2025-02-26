@@ -3,3 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+label,h1,h2,p,.nav-link {
+    font-family: 'Playfair Display', serif;
+}
