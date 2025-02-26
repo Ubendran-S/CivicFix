@@ -9,7 +9,7 @@ const Login = () => {
   const [password,setPassword]=useState("");
   const navigate =useNavigate()
   const handleLogin = () => {
-    if((email==="ubendran1611@gmail.com"&&password==='ubendran1611')||(email==="srimanmani16@gmail.com"&& password==="sriman16")||(email==="rdmusic@gmail.com" &&password==="rdmusic16")){
+    if((email===""&&password==='')||(email==="srimanmani16@gmail.com"&& password==="sriman16")||(email==="rdmusic@gmail.com" &&password==="rdmusic16")){
       navigate('/home')
     }
     else{
