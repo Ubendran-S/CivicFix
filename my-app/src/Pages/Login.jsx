@@ -22,7 +22,6 @@ const Login = () => {
       <div className='container'>
       <div className='cap'>
         <h1 style={{ color:"white",fontSize:"50px" }}>
-        <img src={logo} alt="" style={{ height: "60px" }} />
         CivicFix
         </h1>
           <div className='figo'>
