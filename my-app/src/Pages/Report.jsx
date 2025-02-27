@@ -16,7 +16,7 @@ const Report = () => {
     console.log(issue)
     console.log(issuename)
   return (
-    <div>
+    <div style={{display:"flex",flexDirection:"column",gap:"50px"}}>
         <Nav/>
         <div className='main'>
           <div className='one'>
