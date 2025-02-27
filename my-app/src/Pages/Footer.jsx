@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='f-main'>
             <div className='k1'>
                 <p className='kl'>CivicFix</p> <hr className='fk'/>
-                <p className='kl'>Empowering citizens to improve their communities through efficient issue reporting and resolution.</p>
+                <p className='kl'>Empowering citizens to enhance communities through issue reporting.</p>
             </div>
             <div  className='pl'>
                 <p className='kl'>Quick Links</p> <hr className='fk'/>
