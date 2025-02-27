@@ -5,7 +5,7 @@ import logo from'../Pages/logo.png'
 function Nav() {
   return (
     <div className="nav">
-      <h1 style={{display:'flex',justifyContent:'center'}}><img src={logo} style={{height:"50px"}}/> CivicFix</h1>
+      <h1 style={{display:'flex',justifyContent:'center'}}> CivicFix</h1>
       <nav>
         <Link to="/home" className="nav-link">Home</Link>
         <Link to="/report" className="nav-link">Report</Link>

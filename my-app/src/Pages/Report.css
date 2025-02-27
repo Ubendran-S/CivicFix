@@ -1,8 +1,7 @@
 .main{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 100px;
+    height: 250vh;
 }
 .one{
     height: 200vh;
@@ -16,7 +15,7 @@ button{
     justify-content: center;
     width: 40vw;
     border-radius: 5px;
-    height: 12vh;
+    height: 50px;
     padding: 7px;
     font-size: 25px;
     background-color: blue;
@@ -28,7 +27,7 @@ button{
 }
 hr{
     width: 20vw;
-    height: 0.5vh;
+    height: 5px;
     background-color: rgb(97, 134, 172);
     border: 1px;
     border-radius: 1px;

@@ -20,25 +20,25 @@ const Home = () => {
                 <img src={rep} className='i'/>
                 <h2>1.Submit a Report</h2>
                 <hr className='g'/>
-                <p>Take a photo of the issue, describe it briefly, and mark its location on the map.</p>
+                <p style={{color:"grey"}} className='df'>Take a photo of the issue, describe it briefly, and mark its location on the map.</p>
             </div>
             <div className='y'>
                 <img src={rev} className='i'/>
                 <h2>2. Review by Officials</h2>
                 <hr className='g'/>
-                <p>Local authorities review and verify your report before assigning it to the appropriate department.</p>
+                <p style={{color:"grey"}} className='df'>Local authorities review, verify, and assign your report to the relevant department.</p>
             </div>
             <div className='y'>
                 <img src={plan} className='i'/>
                 <h2>3. Solution Planning</h2>
                 <hr className='g'/>
-                <p>The assigned department takes the necessary steps to address the reported issue.</p>
+                <p style={{color:"grey"}} className='df'>The corresponding department takes action to resolve the issue.</p>
             </div>
             <div className='y'>
                 <img src={inno} className='i'/>
                 <h2>4. Working on Solution</h2>
                 <hr className='g'/>
-                <p>Track the progress of your report and receive notifications when the issue is resolved.</p>
+                <p style={{color:"grey"}} className='df'>Track the progress of your report and receive notifications when the issue is resolved.</p>
             </div>
         </div>
         <div className='gu'>

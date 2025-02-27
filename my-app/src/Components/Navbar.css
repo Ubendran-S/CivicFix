@@ -2,7 +2,7 @@
     display: flex;
     text-decoration: none;
     color: black;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 25px;
     height: 7vh;
     background-image: linear-gradient(to right,rgb(0,52,105),rgb(0,96,193));
@@ -32,5 +32,5 @@ h1{
 }
 nav{
     display: flex;
-    gap: 200px;
+    gap: 50px;
 }

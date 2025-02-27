@@ -16,9 +16,9 @@ const Report = () => {
     console.log(issue)
     console.log(issuename)
   return (
-    <div>
+    <div  style={{display:"flex",flexDirection:"column",gap:"50px"}}>
         <Nav/>
-        <div className='main' style={{display:"flex",flexDirection:"column",gap:"50px"}}>
+        <div className='main' >
           <div className='one'>
             <h1 style={{color:"rgb(0,52,105)"}}>Report an Issue</h1><hr/>
             <label htmlFor="">Name of the Reporter:</label>
