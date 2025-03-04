@@ -6,6 +6,7 @@
     justify-content: center;
     gap: 50px;
     font-size: 13px;
+    position: relative;
 }
 .kl{
     color: whitesmoke;

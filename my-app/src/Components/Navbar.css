@@ -5,7 +5,6 @@
     justify-content: space-evenly;
     font-size: 25px;
     height: 7vh;
-    background-image: linear-gradient(to right,rgb(0,52,105),rgb(0,96,193));
     align-items: center;
     animation: pk;
     animation-duration: 1s;
@@ -19,11 +18,10 @@
     }
 }
 .nav-link{
-    color: rgb(255,255,255);
+    color: black;
     text-decoration: none;
 }
 .nav-link:hover{
-    color: rgb(0,0,0);
     transform: scale(0.9);
 }
 h1{

@@ -10,3 +10,10 @@ body {
 label,h1,h2,p,.nav-link ,.nav-link1,button,.fh{
     font-family: 'Poppins';
 }
+@media (max-width:1300)
+{
+    label,h1,h2,p,.nav-link ,.nav-link1,button,.fh{
+
+        font-size: 15px;
+    }
+}

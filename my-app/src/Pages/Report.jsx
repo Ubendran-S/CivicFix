@@ -16,7 +16,7 @@ const Report = () => {
     console.log(issue)
     console.log(issuename)
   return (
-    <div  style={{display:"flex",flexDirection:"column",gap:"50px"}}>
+    <div  style={{display:"flex",flexDirection:"column"}}>
         <Nav/>
         <div className='main' >
           <div className='one'>
@@ -40,7 +40,7 @@ const Report = () => {
             <label htmlFor=''>Title of the Issue:</label>
             <input type='text' placeholder={"Brief description of the issue"}onChange={(e)=>(setIssue(e.target.value))}></input>
             <label htmlFor="">Description of the issue:</label>
-            <textarea placeholder='Enter the description of the issue' style={{height:"20vh"}}onChange={(e)=>(setIssue(e.target.value))}></textarea>
+            <textarea placeholder='Enter the description of the issue' style={{height:"100px"}}onChange={(e)=>(setIssue(e.target.value))}></textarea>
             <label htmlFor="">Pin the location in the map:</label>
             <div class="mapouter">
               <div class="gmap_canvas">
