@@ -24,10 +24,10 @@ const MyReport = () => {
             <img src={soc} className='wig' />
           </div>
           <div className='mr-one'>
-            <Card name="Pathole" status="On Progress" color="red" image={path} location="Sheeba nagar,Kaniyur" />
-            <Card name="Street-Lights" status="Completed" color="lightgreen" image={sl} location="Kovaipudur pirivu"/>
-            <Card name="Drainage" status="On Review" color="orange" image={drain} location="Sengalipalayam"/>
-            <Card name="Water-Pipe" status="Checking" color="Blue" image={pipes}location="Saibaba colony"/>
+            <Card name="Pathole" status="On Progress" color="red"  location="Sheeba nagar,Kaniyur" />
+            <Card name="Street-Lights" status="Completed" color="lightgreen"  location="Kovaipudur pirivu"/>
+            <Card name="Drainage" status="On Review" color="orange"  location="Sengalipalayam"/>
+            <Card name="Water-Pipe" status="Checking" color="Blue" location="Saibaba colony"/>
           </div>
         <Footer/>
       </div>

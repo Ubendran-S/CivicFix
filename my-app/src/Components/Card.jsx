@@ -6,7 +6,6 @@ const Card = (props) => {
     <div className='card' style={{backgroundImage:`url(${props.image})`,backdropFilter: "blur(5px)",}}>
         <p className='c-main' >{props.name}</p><hr className='ju'/>
         <div style={{display:"flex",gap:"10px"}}>
-          <img src={loc} className='card-loc'/>
           <p style={{fontSize:"18px"}}>{props.location}</p>
         </div>
         <p className='progress'style={{backgroundColor:props.color}}>{props.status}</p>

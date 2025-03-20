@@ -60,10 +60,10 @@ const Report = () => {
             <input type='text' placeholder={"Enter the location of issue spoted"} style={{display:'flex',height:''}}></input>
             <label >Upload images of the reported issues:</label>
             <input type='file'></input>
-            <button type='submit'onClick={()=>{navigate('/thankyou')}}>Submit Report</button>
+            <button style={{marginBottom:"30px"}}type='submit'onClick={()=>{navigate('/thankyou')}}>Submit Report</button>
           </div>
         </div>
-        <Footer/>
+          <Footer/>
     </div>
   )
 }
