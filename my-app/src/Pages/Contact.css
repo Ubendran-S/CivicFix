@@ -1,11 +1,22 @@
-.pol{
+.c-jk{
+    height: 50vh;
+    width: 40vw;
+}
+.d-jk{
+    height: 50vh;
+    width: 40vw;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    margin: 10vh;
-    align-items: center;
+    gap: 15px;
 }
-.do{
-    height: 65vh;
-    width: 40vw;
+.pol{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 100px;
+}
+.h-jk{
+    display: flex;
+    flex-direction: column;
+    
 }
